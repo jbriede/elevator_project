@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+﻿  simulator.cpp
+c:\users\colli\source\repos\elevator_project\elevator project\homework_4_main\homework_4_main\simulator.cpp(8): warning C4552: '+': operator has no effect; expected operator with side-effect
+  Homework_4_main.vcxproj -> C:\Users\colli\Source\Repos\elevator_project\Elevator Project\Homework_4_main\Debug\Homework_4_main.exe
+=======
+﻿  elevator_system.cpp
+  Generating Code...
+c:\homework 4\elevator project\homework_4_main\homework_4_main\elevator_system.cpp(90): warning C4715: 'Elevator_System::pick_car': not all control paths return a value
+  Skipping... (no relevant changes detected)
+  hw4_Source.cpp
+  car.cpp
+elevator_system.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Car::get_direction(void)" (?get_direction@Car@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "private: bool __thiscall Elevator_System::car_in_route(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?car_in_route@Elevator_System@@AAE_NHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+elevator_system.obj : error LNK2019: unresolved external symbol "public: int __thiscall Car::get_lowest_floor(void)" (?get_lowest_floor@Car@@QAEHXZ) referenced in function "private: bool __thiscall Elevator_System::car_in_route(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?car_in_route@Elevator_System@@AAE_NHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+elevator_system.obj : error LNK2019: unresolved external symbol "public: int __thiscall Car::get_highest_floor(void)" (?get_highest_floor@Car@@QAEHXZ) referenced in function "private: bool __thiscall Elevator_System::car_in_route(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?car_in_route@Elevator_System@@AAE_NHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+C:\Homework 4\Elevator Project\Homework_4_main\Debug\Homework_4_main.exe : fatal error LNK1120: 3 unresolved externals
+>>>>>>> 57acbcac21e2c879e03e61f0fa555f5ac39fa539
